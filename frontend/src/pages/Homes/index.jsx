@@ -1,10 +1,11 @@
-import Header from "../../components/Header";
-import Home from "../../components/Header";
+import FormCliente from "../../components/FormCliente";
+
+
 
 function HomePage(){
     return(
         <div>
-            <h1>Home</h1>
+            <FormCliente/>
         </div>
     )
 };
