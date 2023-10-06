@@ -44,29 +44,29 @@ function FormCliente(){
                 <label For="nome">Nome:</label>
                 <input type="text" name="nome" id="" onChange={handleChange} value={usuario.nome} /><br/>
                 
-                <label For="nome">Telefone:</label>
-                <input type="text" name="" id="" onChange={handleChange} value={usuario.telefone}/><br/>
+                <label For="telefone">Telefone:</label>
+                <input type="text" name="telefone" id="" onChange={handleChange} value={usuario.telefone}/><br/>
 
-                <label For="nome">Data Nascimento:</label>
-                <input type="text" name="" id="" onChange={handleChange} value={usuario.dataDeNascimento}/><br/>
+                <label For="date">Data Nascimento:</label>
+                <input type="date" name="date" id="" onChange={handleChange} value={usuario.dataDeNascimento}/><br/>
 
-                <label For="nome">CPF:</label>
-                <input type="text" name="" id="" onChange={handleChange} value={usuario.cpf}/><br/>
+                <label For="cpf">CPF:</label>
+                <input type="text" name="cpf" id="" onChange={handleChange} value={usuario.cpf}/><br/>
 
-                <label For="nome">E-mail:</label>
-                <input type="text" name="" id="" onChange={handleChange} value={usuario.email}/><br/>
+                <label For="email">E-mail:</label>
+                <input type="text" name="email" id="" onChange={handleChange} value={usuario.email}/><br/>
 
-                <label For="nome">CEP:</label>
-                <input type="text" name="" id="" onChange={handleChange}/><br/>
+                <label For="cep">CEP:</label>
+                <input type="text" name="cep" id="" onChange={handleChange}/><br/>
 
-                <label For="nome">Rua:</label>
-                <input type="text" name="" id="" onChange={handleChange}/><br/>
+                <label For="rua">Rua:</label>
+                <input type="text" name="rua" id="" onChange={handleChange}/><br/>
 
-                <label For="nome">Bairro:</label>
-                <input type="text" name="" id="" onChange={handleChange}/><br/>
+                <label For="bairro">Bairro:</label>
+                <input type="text" name="bairro" id="" onChange={handleChange}/><br/>
 
-                <label For="nome">Cidade:</label>
-                <input type="text" name="" id="" onChange={handleChange} /><br/>
+                <label For="cidade">Cidade:</label>
+                <input type="text" name="cidade" id="" onChange={handleChange} /><br/>
 
                 <button type="submit">Cadastrar</button>
 
@@ -78,31 +78,25 @@ function FormCliente(){
                 
                 <input type="text" name="" id=""placeholder="CLIENTE"/><br/>
                 
-                <label For="nome">Aparelho:</label>
-                <input type="text" name="" id=""/><br/>
+                <label For="aparelho">Aparelho:</label>
+                <input type="text" name="aparelho" id=""/><br/>
 
-                <label For="nome">Marca:</label>
-                <input type="text" name="" id=""/><br/>
+                <label For="marca">Marca:</label>
+                <input type="text" name="marca" id=""/><br/>
 
-                <label For="nome">Modelo:</label>
-                <input type="text" name="" id=""/><br/>
+                <label For="modelo">Modelo:</label>
+                <input type="text" name="modelo" id=""/><br/>
 
-                <label For="nome">Modelo:</label>
-                <input type="text" name="" id=""/><br/>
+                <label For="imei">Imei:</label>
+                <input type="text" name="imei" id=""/><br/>
 
-                <label For="nome">Imei:</label>
-                <input type="text" name="" id=""/><br/>
-
-                <label For="nome">Senha:</label>
-                <input type="text" name="" id=""/><br/>
+                <label For="senha">Senha:</label>
+                <input type="text" name="senha" id=""/><br/>
 
                 <label for="relato">Problema Relatado:</label>
                 <textarea id="relat" name="relato" rows="4" cols="50"></textarea>
 
-                <button>Cadastrar</button>
-
-
-               
+                <button>Cadastrar</button>              
 
             </form>
         </CaixaForm >
